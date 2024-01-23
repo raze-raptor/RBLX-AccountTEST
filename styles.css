@@ -1,0 +1,58 @@
+body {
+    background-color: #fafafa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#usernameForm {
+    margin-bottom: 20px;
+}
+
+#usernameForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#usernameForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#usernameForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#usernameForm input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.message {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.message p {
+    margin: 0;
+}
